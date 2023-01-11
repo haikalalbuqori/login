@@ -1,0 +1,83 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: url(umi.png);
+    background-size: cover;
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 450px;
+    height: 480px;
+    padding: 50px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background: rgba(120, 120, 120, 0.662);
+    color: rgb(0, 0, 0);
+}
+
+.box h1{
+    color: #4b4b4c;
+    text-align: center;
+}
+
+.box h5{
+    color: #a9aaac;
+    text-align: center;
+}
+
+.lapisInput{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: black;
+}
+
+.lapisInput input{
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+}
+
+.tombol-login input{
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background: #3c3c3c;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.tombol-login input:hover{
+    background: #6a6a6a;
+    color: rgb(0, 0, 0);
+}
+
+.klik{
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.klik label a{
+    color: #0c0c0c;
+}
+
+.klik label a:hover{
+    background: cover;
+    color: #8f8f8f;
+}

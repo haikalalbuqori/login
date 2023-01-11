@@ -1,0 +1,66 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: url(bakar.jpg);
+    background-size: cover;
+}
+
+/* tampilan utama */
+
+.container{
+    background: ();
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-inline: 500px;
+    border-radius: 2000px;
+}
+
+.judul{
+    text-shadow: 2px 2px 2px lightgray;
+}
+
+.sub-judul{
+    text-shadow: 2px 2px 2px lightgray;
+}
+
+.container .judul{
+    margin-top: 50px;
+}
+
+.tombol-admin button{
+    border: none;
+    outline: none;
+    width: 90px;
+    height: 20px;
+    color: #fff;
+    font-size: 16px;
+    background: #b5241d;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px lightgray;;
+}
+
+.tombol-admin button:hover{
+    background: #000000;
+    color: rgb(255, 0, 0);
+}
+
+.tombol-user button{
+    border: none;
+    outline: none;
+    width: 90px;
+    height: 20px;
+    color: #fff;
+    font-size: 16px;
+    background: #bf2727;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px lightgray;;
+}
+
+.tombol-user button:hover{
+    background: #000000;
+    color: rgb(255, 0, 0);
+}
